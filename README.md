@@ -2,6 +2,18 @@
 
 ## An application that reminds you of certain things based on memes
 
+## Getting Started
+
+Requirements:
+- Mongodb installed on local machine and running
+- Nodejs version 8.0 and above
+
+Installation:
+```sh
+cd mememinder-demo
+npm install
+npm start
+```
 
 ## API
 
