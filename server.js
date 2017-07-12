@@ -7,7 +7,7 @@ const bodyParser = require("body-parser");
 mongoose.Promise = require('bluebird');
 
 // insert mongo db to use
-// mongoose.connect('mongodb://localhost:27017/todo-mvc');
+mongoose.connect('mongodb://localhost:27017/mememinder');
 
 app.use(bodyParser.json());
 app.use(express.static(__dirname + '/public'));
