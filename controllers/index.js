@@ -68,7 +68,7 @@ const controller = {
 
 }
 
-
+// /api/memes
 router.get('/', controller.getAllMemes);
 router.get('/:id', controller.getOneMeme);
 router.post('/', controller.createMeme);
