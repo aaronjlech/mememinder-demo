@@ -4,7 +4,8 @@
 
 ## Getting Started
 
-Requirements:
+Requirents:
+WE BROKE IT!!!
 - Mongodb installed on local machine and running
 - Nodejs version 8.0 and above
 
