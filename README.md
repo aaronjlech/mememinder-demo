@@ -5,6 +5,15 @@
 
 ## API
 
+### Data Model
+```
+{
+   _id: "202934u20mbb289" //unique mongodb ID cannot be changed
+   title: String,
+   meme_link: String,
+   description: String
+}
+```
 ### routes
 
 
