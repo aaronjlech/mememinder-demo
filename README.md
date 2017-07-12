@@ -10,9 +10,9 @@ Requirements:
 
 Installation:
 ```sh
-cd mememinder-demo
-npm install
-npm start
+$ cd mememinder-demo
+$ npm install
+$ npm start
 ```
 
 ## API
