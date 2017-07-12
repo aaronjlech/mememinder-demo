@@ -7,6 +7,7 @@
 
 ### Data Model
 ```
+//the request body should look like this
 {
    "meme": {
       "title": String, //title of mememinder(required)
