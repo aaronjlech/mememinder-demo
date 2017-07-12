@@ -2,7 +2,7 @@ const path = require('path');
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
-// const router = require('./controllers/index');
+const router = require('./controllers/index');
 const bodyParser = require("body-parser");
 mongoose.Promise = require('bluebird');
 
@@ -16,6 +16,8 @@ app.get('/', function (req, res) {
     res.sendFile(__dirname + "/public/index.html");
 });
 
+
+app.use('/api/memes', router);
 
 const port = 3000
 app.listen(port, function(){

@@ -8,11 +8,13 @@
 ### Data Model
 ```
 {
-   _id: "202934u20mbb289" //unique mongodb ID cannot be changed
-   title: String,
-   meme_link: String,
-   description: String
+   "meme": {
+      "title": String, //title of mememinder(required)
+      "meme_link": String, //url link(required)
+      "description": String //description of mememinder(not required)
+   }
 }
+
 ```
 ### routes
 
